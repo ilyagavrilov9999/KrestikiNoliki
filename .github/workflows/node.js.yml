@@ -22,7 +22,6 @@ jobs:
               npm install
               npm run test
               npm run build
-
           # Пример однолинейного простого скрипта shell
           - name: Run a one-line script
             run: echo Hello, world!
@@ -30,8 +29,8 @@ jobs:
           # Пример многолинейного скрипта shell
           - name: Run a multi-line script
             run: |
-                echo Add other actions to build,
-                echo test, and deploy your project.
+             echo Add other actions to build,
+             echo test, and deploy your project.
                 
           - name: Run JS file for test
             run: node js/script.js
