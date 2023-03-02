@@ -1,4 +1,4 @@
-import {pow} from "../main.js";
+import {pow} from '../main.js';
 import assert from 'node:assert/strict';
 
 assert(pow(2; 2) === 4)
